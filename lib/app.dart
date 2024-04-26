@@ -11,6 +11,7 @@ class FaceSearchApp extends StatelessWidget {
       title: 'Face Search',
       home: const UploadImageScreen(),
       builder: EasyLoading.init(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
